@@ -21,14 +21,6 @@
   margin: 1%;
 }
 
-footer {
-  float: bottom;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-}
-
 h1, h2, h3, h4 {
   text-align: center;
   margin: 16px;
