@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/css/master.css">
+
+    <title>Home</title>
+  </head>
+
+  <header>
+    <!--Desktop navbar-->
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: purple;" id="navigator">
+      <div class="collapse navbar-collapse" id="Nav">
+        <div class="navbar-nav" id="barkeep">
+          <p class="nav-item nav-link" id="brand"><strong>The Barn</strong></p>
+          <a href="index.html" class="nav-item nav-link active">Home</a>
+          <a href="dogs.html" class="nav-item nav-link">Dogs</a>
+          <a href="cats.html" class="nav-item nav-link">Cats</a>
+          <a href="reptiles.html" class="nav-item nav-link">Reptiles</a>
+        </div>
+      </div>
+    </nav>
+
+    <!--Mobile navbar-->
+    <nav class="navbar navbar-dark" style="background-color: purple;" id="topNav">
+      <div class="container-fluid">
+        <p class="nav-item nav-link" id="brand"><strong>The Barn</strong></p>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+          aria-expanded="false" aria-label="Toggle navigation" id="burger">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="navbar-dark shadow-3 p-4" style="background-color: purple; text-decoration: none;">
+        <a href="index.html" class="nav-item nav-link" style="color: white;" id="menu-item">Home</a>
+        <a href="dogs.html" class="nav-item nav-link" style="color: white;" id="menu-item">Dogs</a>
+        <a href="cats.html" class="nav-item nav-link" style="color: white;" id="menu-item">Cats</a>
+        <a href="reptiles.html" class="nav-item nav-link" style="color: white;" id="menu-item">Reptiles</a>
+      </div>
+    </div>
+  </header>
+
+  <body>
+    <div class="center-column">
+      <h2>The Barn</h2>
+      <div class="square" style="display: flex; flex: wrap;">
+        <div>
+          <img src="images/homepage/doggo.jpg" class="photo left" style="width: 200px; margin: 8px;">
+        </div>
+        <p class="para right" style="text-align: justify; font-size: 20px;">
+          We are an animal shelter committed to helping people and animals find the right fit for them.
+          Come by with the whole family to meet some of the wonderful animals we have here.
+        </p>
+        <div style="clear:both;"></div>
+      </div>
+    </div>
+    <div class="center-column">
+      <div class="square" style="display: flex; flex: wrap;">
+        <p class="para left" style="text-align: justify; font-size: 20px;">
+          All of our furry (or scaly) friends need a home. We try to keep things affordable for you,
+          and just want to help make people and animals that pass through here happier.
+        </p>
+        <div>
+          <img src="images/homepage/catto.jpg" class="photo right" style="width: 200px; margin: 8px;">
+        </div>
+      </div>
+    </div>
+    <div class="center-column">
+      <div class="square" style="display: flex; flex: wrap;">
+        <div>
+          <img src="images/homepage/yoshi.jpg" class="photo left" style="width: 200px; margin: 8px;">
+        </div>
+        <p class="para right" style="text-align: justify; font-size: 20px;">
+          Reach out to us if you have any interest in our animals or if you are
+          interested in volunteering or working here.
+        </p>
+        <div style="clear:both;"></div>
+      </div>
+    </div>
+  </body>
+
+  <footer style="bottom: 20px; margin: 20px;">
+    <hr>
+    <p style="text-align: center;">Call or email us and we can help you find the pet for you!</p>
+    Contact us!<br>(555) 555-5555<br>info@theBarn.com
+  </footer>
+
+</html>

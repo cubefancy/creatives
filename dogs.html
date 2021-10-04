@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/css/master.css">
+
+    <title>Dogs</title>
+  </head>
+
+  <header>
+    <!--Navbar for desktop-->
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: purple;" id="navigator">
+      <div class="collapse navbar-collapse" id="Nav">
+        <div class="navbar-nav" id="barkeep">
+          <p class="nav-item nav-link" id="brand"><strong>The Barn</strong></p>
+          <a href="index.html" class="nav-item nav-link">Home</a>
+          <a href="dogs.html" class="nav-item nav-link active">Dogs</a>
+          <a href="cats.html" class="nav-item nav-link">Cats</a>
+          <a href="reptiles.html" class="nav-item nav-link">Reptiles</a>
+        </div>
+      </div>
+    </nav>
+
+    <!--Mobile navbar-->
+    <nav class="navbar navbar-dark" style="background-color: purple;" id="topNav">
+      <div class="container-fluid">
+        <p class="nav-item nav-link" id="brand"><strong>The Barn</strong></p>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+          aria-expanded="false" aria-label="Toggle navigation" id="burger">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="navbar-inverse shadow-3 p-4">
+        <a href="index.html" class="nav-item nav-link" style="color: white;" id="menu-item">Home</a>
+        <a href="dogs.html" class="nav-item nav-link" style="color: white;" id="menu-item">Dogs</a>
+        <a href="cats.html" class="nav-item nav-link" style="color: white;" id="menu-item">Cats</a>
+        <a href="reptiles.html" class="nav-item nav-link" style="color: white;" id="menu-item">Reptiles</a>
+      </div>
+    </div>
+  </header>
+
+  <body>
+    <div class="row">
+      <div class="column">
+        <img src="images/dogs/brown.jpg" id="animal-pic">
+        <h3>Chester</h3>
+        <p>Chester is really friendly and energetic. He plays well with other dogs
+        and with kids.</p>
+        <img src="images/dogs/labrador.jpg" id="animal-pic">
+        <h4>Milo</h4>
+        <p>Milo is one of our more mellow and calm dogs.
+        He is sweet and gentle but prefers a less energetic lifestyle.</p>
+      </div>
+
+      <div class="column">
+        <img src="images/dogs/black_white.jpg" id="animal-pic">
+        <h4>Princess</h4>
+        <p>Princess still has a lot of puppy in her. She loves to play and enjoys walks
+        and meeting new people.</p>
+        <img src="images/dogs/tan.jpg" id="animal-pic">
+        <h4>Rex</h4>
+        <p>Rex is a loyal friend and companion, but can be a bit hesitant until
+        he gets to know you.</p>
+      </div>
+
+      <div class="column">
+        <img src="images/dogs/pit.jpg" id="animal-pic">
+        <h4>Bella</h4>
+        <p>Bella is a high-energy dog. She loves kids, and cannot get enough play time.</p>
+        <img src="images/dogs/spaniel.jpg" id="animal-pic">
+        <h4>Maggie</h4>
+        <p>Maggie is gentle and a bit timid. Once she gets used to you, she is a
+        total lapdog and loves to cuddle.</p>
+      </div>
+    </div>
+  </body>
+
+  <footer style="margin: 20px;">
+    <hr>
+    <p style="text-align: center;">Call or email us and we can help you find the pet for you!</p>
+    Contact us!<br>(555) 555-5555<br>info@theBarn.com
+  </footer>
+</html>

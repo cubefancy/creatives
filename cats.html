@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/css/master.css">
+
+    <title>Cats</title>
+  </head>
+
+  <header>
+    <!--Navbar for desktop-->
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: purple;" id="navigator">
+      <div class="collapse navbar-collapse" id="Nav">
+        <div class="navbar-nav" id="barkeep">
+          <p class="nav-item nav-link" id="brand"><strong>The Barn</strong></p>
+          <a href="index.html" class="nav-item nav-link">Home</a>
+          <a href="dogs.html" class="nav-item nav-link">Dogs</a>
+          <a href="cats.html" class="nav-item nav-link active">Cats</a>
+          <a href="reptiles.html" class="nav-item nav-link">Reptiles</a>
+        </div>
+      </div>
+    </nav>
+
+    <!--Mobile navbar-->
+    <nav class="navbar navbar-dark" style="background-color: purple;" id="topNav">
+      <div class="container-fluid">
+        <p class="nav-item nav-link" id="brand"><strong>The Barn</strong></p>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+          aria-expanded="false" aria-label="Toggle navigation" id="burger">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="navbar-inverse shadow-3 p-4">
+        <a href="index.html" class="nav-item nav-link" style="color: white;" id="menu-item">Home</a>
+        <a href="dogs.html" class="nav-item nav-link" style="color: white;" id="menu-item">Dogs</a>
+        <a href="cats.html" class="nav-item nav-link" style="color: white;" id="menu-item">Cats</a>
+        <a href="reptiles.html" class="nav-item nav-link" style="color: white;" id="menu-item">Reptiles</a>
+      </div>
+    </div>
+  </header>
+
+  <body>
+    <div class="row">
+      <div class="column">
+        <img src="images/cats/grey.jpg" id="animal-pic">
+        <h4>Ash</h4>
+        <p>Ash is lovable and affectionate and likes nothing more than being around her family.</p>
+        <img src="images/cats/fluffy.jpg" id="animal-pic">
+        <h4>Rocky</h4>
+        <p>Rocky is explorative. He likes having lots of space and freedom to roam.</p>
+      </div>
+
+      <div class="column">
+        <img src="images/cats/kitten.jpg" id="animal-pic">
+        <h4>Mufasa</h4>
+        <p>Mufasa likes to climb things and look around from the heights.</p>
+        <img src="images/cats/calico.jpg" id="animal-pic">
+        <h4>Charlemagne</h4>
+        <p>Charlemagne is a bit of a scaredy cat. Storms frighten him, but he will seek comfort in your lap.</p>
+        <img src="images/cats/baby.jpg" id="animal-pic">
+        <h4>Mittens</h4>
+        <p>Mittens is still very young. She is uncoordinated but loves to play.</p>
+      </div>
+
+      <div class="column">
+        <img src="images/cats/black.jpg" id="animal-pic">
+        <h4>Scar</h4>
+        <p>Scar is a well-mannered companion who prefers to have plenty of alone time.</p>
+        <img src="images/cats/halloween.jpg" id="animal-pic">
+        <h4>Lucy</h4>
+        <p>Lucy is so full of life. Her playful energy brings a smile to anyone's face.</p>
+      </div>
+    </div>
+  </body>
+
+  <footer style="margin: 20px;">
+    <hr>
+    <p style="text-align: center;">Call or email us and we can help you find the pet for you!</p>
+    Contact us!<br>(555) 555-5555<br>info@theBarn.com
+  </footer>
+</html>

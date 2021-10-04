@@ -1,0 +1,112 @@
+#navigator {
+  height: 50px;
+}
+#barkeep {
+  padding-top: 10px;
+}
+#brand {
+  color: gold;
+}
+
+.photo {
+  width: 48%;
+  margin: 1%;
+}
+.para {
+  width: 48%;
+  margin: 1%;
+}
+.left {
+  float: left;
+  margin: 1%;
+}
+
+footer {
+  float: bottom;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+  margin: 16px;
+}
+#tongues {
+  float: left;
+}
+p {
+  text-align: justify;
+}
+.center-column {
+  width: 70%;
+}
+
+@media screen and (max-width:900px) {
+  #Nav {
+    display: none;
+  }
+  #topNav {
+    display: block;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+  }
+  #brand {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+  }
+  #burger {
+    position: absolute;
+    top: 5px;
+    right: 3px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+  }
+  .column {
+    flex: 25%;
+  }
+  #animal-pic {
+    width: inherit;
+  }
+}
+
+@media screen and (min-width:901px) {
+  #Nav {
+    display: block;
+  }
+  #topNav {
+    display: none;
+  }
+  #navbarToggleExternalContent {
+    display: none;
+  }
+  #menu-item {
+    text-decoration: none;
+    color: black;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    margin-top: 8px;
+  }
+
+  .column {
+    flex: 25%;
+    max-width: 20%;
+  }
+
+  #animal-pic {
+    width: inherit;
+  }
+}
